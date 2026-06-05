@@ -48,14 +48,14 @@
 		</p>
 	</div>
 	<div class="col-md-4">
-		<h2>Orchestration</h2>
+		<h2>Orchestration1</h2>
 		<p>Kubernetes</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
-		<h2>IAC</h2>
+		<h2>IAC1</h2>
 		<p>Terraform</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
