@@ -41,21 +41,21 @@
  
   <div class="row">
 	<div class="col-md-4">
-		<h2>Container2</h2>
+		<h2>Container3</h2>
 		<p>Docker</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
-		<h2>Orchestration2</h2>
+		<h2>Orchestration3</h2>
 		<p>Kubernetes</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
-		<h2>IAC2</h2>
+		<h2>IAC3</h2>
 		<p>Terraform</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
