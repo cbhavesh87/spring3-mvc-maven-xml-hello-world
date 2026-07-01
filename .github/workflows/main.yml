@@ -49,3 +49,9 @@ jobs:
           
       - name: Build
         run: mvn clean install
+
+      - name: Deploy via Tomcat Manager API
+        run: |
+         curl -u "${{ secrets.TOMCAT_USERNAME }}:${{ secrets.TOMCAT_PASSWORD }}" \
+          -T target/spring3-mvc-maven-xml-hello-world-1.23.war \
+          "${{ secrets.TOMCAT_URL }}/manager/text/deploy?path=/your-app&update=true"
