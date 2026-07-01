@@ -45,4 +45,7 @@ jobs:
         run: |
           pwd
           ls -la
-          find . -name "pom.xml"     
+          find . -name "pom.xml" 
+
+     - name: Build
+       run: mvn clean install
